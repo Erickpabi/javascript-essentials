@@ -1,0 +1,24 @@
+Events is something the browser does or the user does.
+Eg: button onclick events.
+
+Example of events to change a text to the current date and time;
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">Click to find out </button>
+
+<p id="demo">What is the date and time ?</p>
+
+</body>
+</html>
+
+
+There are types of events a user can perform . Examples are:
+onchange --	An HTML element has been changed
+onclick 	--The user clicks an HTML element
+onmouseover --	The user moves the mouse over an HTML element
+onmouseout --	The user moves the mouse away from an HTML element
+onkeydown 	--The user pushes a keyboard key
+onload --	The browser has finished loading the page
