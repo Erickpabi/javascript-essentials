@@ -1,0 +1,16 @@
+A function is a block of code designed to perform a specific function.
+Eg; function myFunction(){
+alert("Hello world");
+}
+
+myFunction();
+
+The myFunction on line 6 invokes the function. A function is also called subroutine or procedure in other languages and it can contain parameters.
+
+eg:function myFunction(a,b){
+return a*b;
+}
+
+myFunction(4,3);
+
+parameters have been passed onto the function which is a and b. And  the one which is used to invoke the function has 4,3 as argument passed onto the parameters
