@@ -1,0 +1,44 @@
+We have 4 basic operators:
+addition(+);
+subtraction(-);
+multiplication(*);
+division(/);
+
+We have other ones like: 
+modulus(%);
+exponentiation(**);
+
+Eg: var x = 5 + 5;
+var y= 2 + 6;
+
+increment and decrement operators;
+++ or --;
+
+//Postincrement and postdecrement
+var x =5l;
+var y= x++;
+
+
+var x =5l;
+var y= x--;
+
+//We have pre-increment and pre-decrement
+var x =5l;
+var y= ++x;
+
+
+var x =5l;
+var y= --x;
+
+
+Adding a string and a number gives you a string
+Eg: var x = "5" + 5;
+alert(x);
+x will be 55;
+
+
+We have +=,-=,%=,*=;
+x+=5 =   x = x+5;
+x-=5 =   x = x-5;
+x*=5 =   x = x*5;
+x%=5 =   x = x%5;
