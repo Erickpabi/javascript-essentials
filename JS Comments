@@ -1,0 +1,3 @@
+Javascript comments comes in two parts. // - Two forward slashes and /* and */ - This is used for block comments.
+Comments are used to help other developers know what part of the code does this and which part does what. The block comments is usually used for formal documentation 
+because most comments are just single line comments which uses the two forward slash. A comment is not executed.
