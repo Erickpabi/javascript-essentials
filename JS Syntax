@@ -1,0 +1,4 @@
+we have two types of values. Fixed values called literals which are strings and numbers and variable values called variables. Javascript is case-sensitive so lastName 
+is not the same as LastName. To specify a variable,we use the word var . Eg: var x = 5; or var y = 4; Most of the time, it is recommended we use camelCase to name our 
+variables. Eg; lastName, camelCase and javascript variables does not start with a number or digit. It can only start with letters, dollar sign or an underscore. 
+A number can come in later but it shouldnt be  the first letter. Eg: 1asd is wrong but $under1 is correct.
