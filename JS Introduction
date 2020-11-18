@@ -1,0 +1,58 @@
+//Changing html content with javascript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">Changing html content with javascript.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "First time using javascript"'>Click Me!</button>
+
+</body>
+</html>
+
+
+//Changing html styles with javascript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo"> The quick brown fox jumped over the lazy dog.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='40px'">Click Me!</button>
+
+</body>
+</html> 
+
+//Hiding html elements with javascript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="hide">hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+
+</body>
+</html> 
+
+//Displaying html elemts using js
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo" style="display:none">Now visible!</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+
+</body>
+</html> 
