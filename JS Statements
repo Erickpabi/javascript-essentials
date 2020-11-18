@@ -1,0 +1,7 @@
+Javascript statements are basically statements like java or c++ statement. A statement in javascript is called a javascript code
+eg:var y= 5;
+var z=2;
+var h= 3;
+
+var sum = h + z;
+alert(sum);
