@@ -1,0 +1,8 @@
+JS objects are basically like objects in real life. Eg is a car. Most cars have the same properties but different values. 
+Examples of objects: var person = {firstName: "John" , lastName: "Doe" , age:89};
+
+To access an objecte method, you use the name of the object and the type of property you will like to access. Eg:
+person.firstName
+person.LastName
+
+An object can have methods inside it too
