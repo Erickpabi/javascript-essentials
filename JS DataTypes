@@ -1,0 +1,7 @@
+var x=8; //Number
+var name = "kofi";  //String
+var person = {firstname:"eric", lastname:"kpabi", age:25, sex:"male"}; //Object 
+
+We have 2 datatypes:Primitive and Complex
+Primitive: boolean, strings,number,undefined 
+Complex: function, object
