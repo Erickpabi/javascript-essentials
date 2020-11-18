@@ -1,0 +1,23 @@
+A string is used for storing and manipulating text.
+String can be written in single or double quotes. Eg: "John" or 'John';
+
+Eg:"We are 'Vikings' from the North";
+
+Strings can be made objects.
+Eg: var x = new String ("John");
+
+To make it an  object, we use the word "new";
+
+To compare two strings , we use the == or === operator.
+
+The == operator compares only the values but the === compares both the type and value.
+
+Eg:
+var x= "John";
+var y= new String("John");
+
+x==y is true 
+
+but x===y is false
+
+String objects can never be compared whether using the double equals operator or triple equals operator
