@@ -1,0 +1,55 @@
+//There are 4 javascript display possibilities.They are:Using innerHTML,console.log,window.alert,document.write;
+//Using innerHTML is used to write to an HTML element
+//eg;.innerHTML="Change"
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id ="demo">My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+</body>
+</html> 
+
+
+//document.write overrides the existing html if it is used after the document has been loaded
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+document.write(5 + 6);
+</script>
+
+</body>
+</html> 
+
+
+//alert.Some people use the window.alert but it is not compulsory. So i choose to use just alert.
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+alert(5 + 6);
+</script>
+
+</body>
+</html>
+
+
+//consoele.log is used for debugging
