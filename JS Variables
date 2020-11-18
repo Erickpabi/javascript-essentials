@@ -1,0 +1,6 @@
+Variables are containers for storing data values.
+Eg: var sum =20;
+var anomaa = "bird";
+var edin ="kwaku";
+
+let and const have been introduced to javascript. const means constant and so it cannot be changed but let means a variable with a limited scope.
